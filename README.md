@@ -20,12 +20,12 @@ node liri.js my-tweets
 This command will display tweets from the selected account.
 
 ```
-node liri.js spotify-this-song
+node liri.js spotify-this-song insertSongName
 ```
 This command will display information details from the selected song.
 
 ```
-node liri.js movie-this
+node liri.js movie-this insertMovieName
 ```
 This command will display information details from the selected movie.
 
@@ -39,13 +39,13 @@ This command will display a predetermined list of commands from random.txt
 Here are some screenshots of the app in action:
 
 my-tweets command
-![screenshot](screenshots/CustomerView1.png "my-tweets")
+![screenshot](screenshots/twitter.png "my-tweets")
 
 spotify-this-song command
-![screenshot](screenshots/CustomerView2.png "spotify-this-song ")
+![screenshot](screenshots/spotify.png "spotify-this-song ")
 
 movie-this command
-![screenshot](screenshots/ManagerView1.png "movie-this")
+![screenshot](screenshots/movie.png "movie-this")
 
 do-what-it-says command
-![screenshot](screenshots/ManagerView2.png "do-what-it-says")
+![screenshot](screenshots/whatItSays.png "do-what-it-says")
