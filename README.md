@@ -46,6 +46,7 @@ spotify-this-song command
 
 movie-this command
 ![screenshot](screenshots/movie.png "movie-this")
+![screenshot](screenshots/movie1.png "movie-this")
 
 do-what-it-says command
 ![screenshot](screenshots/whatItSays.png "do-what-it-says")
