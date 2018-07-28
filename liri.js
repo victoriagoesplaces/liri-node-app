@@ -120,11 +120,19 @@ function doWhatItSays() {
     var fs = require("fs");
 
     fs.readFile("random.txt", "utf8", function(error, data) {
-        if (error) {
-            return console.log(error);
+        if (!error) {
+            whatItSaysResults = data.split(",");
+            thisSong(whatItSaysResults[0], whatItSaysResults[1]);
+        } else {
+            console.log("Error occurred" + error);
         }
-        console.log(data);
-        var dataArr = data.split(",");
-        console.log(dataArr);
-});
-}
+    });
+};
+//         if (error) {
+//             return console.log(error);
+//         }
+//         console.log(data);
+//         var dataArr = data.split(",");
+//         console.log(dataArr);
+// });
+// }
